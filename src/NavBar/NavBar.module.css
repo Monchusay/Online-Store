@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Neucha&display=swap');
+
+.NavBar {
+    width: 1220px;
+    height: 50px;
+    background-color: #EF002A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Akshar", sans-serif;
+    font-size: 20px;
+}
+.NavBarItem a {
+    color: azure;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.NavBarIcon {
+    padding-right: 8px;
+}
