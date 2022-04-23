@@ -10,4 +10,11 @@
     font-size: 30px;
     font-family: "Akshar", cursive;
     z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.Header img {
+    width: 90px;
+    height: 60px;
+    padding-right: 10px;
 }

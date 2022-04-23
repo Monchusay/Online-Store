@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Neucha&display=swap');
+
+.ProductList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.FilterList {
+    width: 20%;
+    height: 95%;
+    border-right: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+.FilterListTitle {
+    font-family: "Akshar", sans-serif;
+    font-size: 30px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content:center;
+}
+.FilterListElements {
+    margin-top: 30px;
+}
+
+.FilterListElement {
+    font-family: "Akshar", sans-serif;
+    font-size: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.GoodsList {
+    width: 80%;
+    height: 100%;
+}
+
