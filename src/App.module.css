@@ -1,6 +1,6 @@
 .App {
   width: 100vw;
-  height: 100vh;
+  height: 1500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,9 +9,11 @@
 .MailObj {
   background-color: #FFB640;
   width: 65%;
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
