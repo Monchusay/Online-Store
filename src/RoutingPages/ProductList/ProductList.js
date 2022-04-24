@@ -2,7 +2,16 @@ import React from "react"
 import style from "./ProductList.module.css"
 import ProductListItem from "./ProductListItem/ProductListItem";
 
-const ProductList = () => {
+const ProductList = (props) => {
+
+    let ProductListElement = props.ProductData.map ((product)=> (
+        <ProductListItem
+            ProductName={product.ProductName}
+            Image={product.Image}
+            Price={product.Price}
+        />
+    ))
+
     return (
         <div className={style.ProductList}>
             <div className={style.FilterList}>
@@ -16,7 +25,7 @@ const ProductList = () => {
                 </div>
             </div>
             <div className={style.GoodsList}>
-                <ProductListItem/>
+                {ProductListElement}
             </div>
         </div>
     )

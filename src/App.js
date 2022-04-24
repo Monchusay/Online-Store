@@ -3,7 +3,7 @@ import Header from "./Header/Header";
 import NavBar from "./NavBar/NavBar";
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 import MainPage from "./RoutingPages/MainPage/MainPage";
-import ProductList from "./RoutingPages/ProductList/ProductList";
+import ProductListContainer from "./RoutingPages/ProductList/ProductListContainer";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <div className={style.MailObj}>
           <Routes>
             <Route path="/MainPage/*" element={<MainPage />} />
-            <Route path="/ProductList/*" element={<ProductList />} />
+            <Route path="/ProductList/*" element={<ProductListContainer />} />
           </Routes>
         </div>
       </div>
