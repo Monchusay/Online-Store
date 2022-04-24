@@ -5,6 +5,7 @@ import { Routes, BrowserRouter, Route } from "react-router-dom";
 import MainPage from "./RoutingPages/MainPage/MainPage";
 import ProductListContainer from "./RoutingPages/ProductList/ProductListContainer";
 import Delivery from "./RoutingPages/Delivery/Delivery";
+import AboutUs from "./RoutingPages/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/MainPage/*" element={<MainPage />} />
             <Route path="/ProductList/*" element={<ProductListContainer />} />
             <Route path="/Delivery/*" element={<Delivery/>}/>
+            <Route path="/AboutUs/*" element={<AboutUs/>}/>
           </Routes>
         </div>
       </div>

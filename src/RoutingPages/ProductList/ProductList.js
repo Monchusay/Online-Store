@@ -12,6 +12,8 @@ const ProductList = (props) => {
     />
   ));
 
+ //Я очень стараюсь, пожалуйста, возьмите меня на работу...//
+
   return (
     <div className={style.ProductList}>
       <div className={style.FilterList}>
