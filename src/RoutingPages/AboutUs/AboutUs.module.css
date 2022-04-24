@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Neucha&display=swap');
+
+.AboutUs {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.AboutUsElement {
+    margin-top: 30px;
+    font-family: "Akshar", sans-serif;
+    font-size: 30px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+.AboutUsIcon {
+    padding-top: 5px;
+}
