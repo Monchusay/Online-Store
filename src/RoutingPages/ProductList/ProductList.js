@@ -1,5 +1,6 @@
 import React from "react"
 import style from "./ProductList.module.css"
+import ProductListItem from "./ProductListItem/ProductListItem";
 
 const ProductList = () => {
     return (
@@ -15,7 +16,7 @@ const ProductList = () => {
                 </div>
             </div>
             <div className={style.GoodsList}>
-
+                <ProductListItem/>
             </div>
         </div>
     )
