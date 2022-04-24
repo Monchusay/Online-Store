@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Neucha&display=swap');
+
+.Delivery {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DeliveryTitle{
+    margin-top: 30px;
+    font-family: "Akshar", sans-serif;
+    font-size: 30px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+.Map {
+    border-top: 2px solid #000;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.Map img {
+    width: 800px;
+    height: 600px;
+    border-radius: 50px;
+}
+.DeliveryDetails {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Akshar", sans-serif;
+    font-size: 30px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+.DeliveryDetailsTextarea {
+    margin-top: 30px;
+    width: 300px;
+    height: 100px;
+}

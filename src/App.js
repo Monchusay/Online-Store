@@ -4,6 +4,7 @@ import NavBar from "./NavBar/NavBar";
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 import MainPage from "./RoutingPages/MainPage/MainPage";
 import ProductListContainer from "./RoutingPages/ProductList/ProductListContainer";
+import Delivery from "./RoutingPages/Delivery/Delivery";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/MainPage/*" element={<MainPage />} />
             <Route path="/ProductList/*" element={<ProductListContainer />} />
+            <Route path="/Delivery/*" element={<Delivery/>}/>
           </Routes>
         </div>
       </div>

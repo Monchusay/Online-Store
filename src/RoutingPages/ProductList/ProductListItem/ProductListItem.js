@@ -5,9 +5,9 @@ const ProductListItem = (props) => {
     return (
         <div className={style.ProductListItem}>
             <div className={style.ProductListItemBox}>
-            <span>{props.ProductName}</span>
+            <span className={style.ProductName}>{props.ProductName}</span>
             <img src={props.Image}/>
-            <span>Price: {props.Price}</span>
+            <span>Price: {props.Price}$</span>
             <button className={style.AddToCartButton}> Add to Cart</button>
             </div>
         </div>
