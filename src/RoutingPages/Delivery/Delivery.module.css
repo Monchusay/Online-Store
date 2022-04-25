@@ -19,11 +19,6 @@
     margin-top: 30px;
     padding-top: 30px;
 }
-.Map img {
-    width: 800px;
-    height: 600px;
-    border-radius: 50px;
-}
 .DeliveryDetails {
     margin-top: 30px;
     display: flex;
