@@ -9,6 +9,7 @@ const ProductList = (props) => {
       ProductName={product.ProductName}
       Image={product.Image}
       Price={product.Price}
+      key={product.id}
     />
   ));
 

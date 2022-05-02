@@ -7,7 +7,7 @@ import { BiCar } from "react-icons/bi";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { AiOutlineFlag } from "react-icons/ai";
 
-const NavBar = () => {
+const NavBar = ({active,setActive}) => {
   return (
     <nav className={style.NavBar}>
       <div className={style.NavBarItem}>
@@ -31,9 +31,9 @@ const NavBar = () => {
         </NavLink>
       </div>
       <div className={style.NavBarItem}>
-        <NavLink to={"/Cart"}>
+        <span onClick={() => setActive(!active)}>
           <AiOutlineShoppingCart className={style.NavBarIcon} /> Cart
-        </NavLink>
+        </span>
       </div>
     </nav>
   );

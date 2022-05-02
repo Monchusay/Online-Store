@@ -19,6 +19,15 @@
     word-spacing: 3px;
     letter-spacing: 1px;
 }
+.NavBarItem {
+    color: azure;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
 
 .NavBarIcon {
     padding-right: 6px;
