@@ -114,6 +114,12 @@ let initialState = {
             Price: "69",
             id: "19"
         },
+    ],
+    CartData: [
+        {
+            CartElementImage: "https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-two-cartons-stacking-goods-commodity-png-image_367984.jpg",
+            CartElementName: "Pepega"
+        }
     ]
 }
 

@@ -8,6 +8,7 @@ import Delivery from "./RoutingPages/Delivery/Delivery";
 import AboutUs from "./RoutingPages/AboutUs/AboutUs";
 import Cart from "./RoutingPages/Cart/Cart";
 import {useState} from "react";
+import CartContainer from "./RoutingPages/Cart/CartContainer";
 
 function App() {
   const [menuActive, setMenuActive] = useState(false)
