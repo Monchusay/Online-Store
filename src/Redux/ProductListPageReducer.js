@@ -117,7 +117,7 @@ let initialState = {
     ],
     CartData: [
         {
-            CartElementImage: "https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-two-cartons-stacking-goods-commodity-png-image_367984.jpg",
+            CartElementImage: "",
             CartElementName: "Pepega"
         }
     ]

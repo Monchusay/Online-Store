@@ -4,6 +4,7 @@ import ProductListItem from "./ProductListItem/ProductListItem";
 import { GoTriangleUp, GoTriangleDown } from "react-icons/go";
 
 const ProductList = (props) => {
+
   let ProductListElement = props.ProductData.map((product) => (
     <ProductListItem
       ProductName={product.ProductName}
