@@ -19,7 +19,7 @@ function App() {
         <NavBar active={menuActive} setActive={setMenuActive}/>
         <div className={style.MailObj}>
           <Routes>
-            <Route path="/MainPage/*" element={<MainPage />} />
+            <Route path="/*" element={<MainPage />} />
             <Route path="/ProductList/*" element={<ProductListContainer />} />
             <Route path="/Delivery/*" element={<Delivery/>}/>
             <Route path="/AboutUs/*" element={<AboutUs/>}/>
