@@ -6,8 +6,11 @@ const Cart = ({active, setActive, CartData}) => {
 
     let CartElements = CartData.map((cart)=> (
         <CartElement
-            CartElementImage={cart.CartElementImage}
-            CartElementName={cart.CartElementName}
+            Image={cart.Image}
+            ProductName={cart.ProductName}
+            id={cart.id}
+            key={cart.id}
+            Price={cart.Price}
         />
     ))
 
@@ -15,7 +18,7 @@ const Cart = ({active, setActive, CartData}) => {
         <div className={active? style.Cart1 : style.Cart} onClick={() => setActive(false)}>
             <div className={style.Blur}></div>
             <div className={style.CartContent}>
-                <div className={style.CartElement}>{CartElements}</div>
+                {CartElements}
             </div>
         </div>
     );

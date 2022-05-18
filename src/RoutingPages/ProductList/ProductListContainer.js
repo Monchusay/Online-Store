@@ -1,6 +1,7 @@
 import React from "react"
 import {connect} from "react-redux";
 import ProductList from "./ProductList";
+import {addToCartActionCreator} from "../../Redux/ProductListPageReducer";
 
 let MapStateToProps = (state) => {
     return {
@@ -9,7 +10,6 @@ let MapStateToProps = (state) => {
 }
 let MapDispatchToProps = (dispatch) => {
     return {
-
     }
 }
 

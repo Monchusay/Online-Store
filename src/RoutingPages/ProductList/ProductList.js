@@ -1,18 +1,20 @@
 import React from "react";
 import style from "./ProductList.module.css";
-import ProductListItem from "./ProductListItem/ProductListItem";
 import { GoTriangleUp, GoTriangleDown } from "react-icons/go";
+import ProductListItemContainer from "./ProductListItem/ProductListItemContainer";
 
 const ProductList = (props) => {
 
   let ProductListElement = props.ProductData.map((product) => (
-    <ProductListItem
+    <ProductListItemContainer
       ProductName={product.ProductName}
       Image={product.Image}
       Price={product.Price}
       key={product.id}
+      id={product.id}
     />
   ));
+
 
  //Я очень стараюсь, пожалуйста, возьмите меня на работу...//
 
