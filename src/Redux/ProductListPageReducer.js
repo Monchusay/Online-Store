@@ -115,24 +115,14 @@ let initialState = {
             id: 19
         },
     ],
-    CartData: [
-        {
-
-        }
-    ]
+    CartData: []
 }
 
 const ProductListPageReducer = (state=initialState,action) => {
 
-    let stateCopy;
-    stateCopy = { ...state };
-    stateCopy.ProductData = [...state.ProductData];
-    stateCopy.CartData = [...state.CartData];
-
     switch (action.type){
         case "ADD_TO_CART":
             let productIndex = state.ProductData.findIndex((p) => p.id === action.id);
-            console.log(productIndex)
             let newCartElement = {
                 id: state.ProductData[productIndex].id,
                 ProductName: state.ProductData[productIndex].ProductName,
