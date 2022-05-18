@@ -1,3 +1,20 @@
-.CartElement {
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Neucha&display=swap');
 
+.CartElement img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+.CartElement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.CartElementName {
+    padding-left: 20px;
+    font-family: "Akshar", sans-serif;
+    font-size: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: white;
 }

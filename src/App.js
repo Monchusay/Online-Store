@@ -6,7 +6,6 @@ import MainPage from "./RoutingPages/MainPage/MainPage";
 import ProductListContainer from "./RoutingPages/ProductList/ProductListContainer";
 import Delivery from "./RoutingPages/Delivery/Delivery";
 import AboutUs from "./RoutingPages/AboutUs/AboutUs";
-import Cart from "./RoutingPages/Cart/Cart";
 import {useState} from "react";
 import CartContainer from "./RoutingPages/Cart/CartContainer";
 
@@ -25,7 +24,7 @@ function App() {
             <Route path="/AboutUs/*" element={<AboutUs/>}/>
           </Routes>
         </div>
-        <Cart active={menuActive} setActive={setMenuActive}/>
+        <CartContainer active={menuActive} setActive={setMenuActive}/>
       </div>
     </BrowserRouter>
   );

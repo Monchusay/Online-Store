@@ -16,11 +16,11 @@ const Delivery = () => {
         <textarea
           placeholder="Your number"
           className={style.DeliveryDetailsTextarea}
-        ></textarea>
+        />
         <textarea
           placeholder="Your name"
           className={style.DeliveryDetailsTextarea}
-        ></textarea>
+        />
       </div>
     </div>
   );
